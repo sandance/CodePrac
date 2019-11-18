@@ -22,7 +22,8 @@ public class Solution {
                 used[i] = false;
                 tempList.remove(tempList.size() - 1); // backTrack
                 System.out.println("backtracked tempList: "+ tempList.toString() + "  : index : " + i);
-                while( i + 1 < array.length && array[i] == array[i+1])
+                //look for duplicates
+		while( i + 1 < array.length && array[i] == array[i+1])
                     ++i;
             }
         }

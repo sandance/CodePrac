@@ -36,8 +36,7 @@ public class Solution {
             nums[i] = sc.nextInt();
         }
 
-        System.out.println("Enter the target element");
-        int target = sc.nextInt();
+
 
         System.out.println("Search Index: " + permutations(nums));
 

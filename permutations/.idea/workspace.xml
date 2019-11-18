@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a9e3959-64cc-4b79-9bae-813a4baa5a2b" name="Default Changelist" comment="" />
+    <list default="true" id="2a9e3959-64cc-4b79-9bae-813a4baa5a2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Pacific_Atlantic_Water_Flow/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clone_graph/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_schedule/src/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Transitive_Closure_of_Graph_DFS/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Transitive_Closure_of_Graph_DFS/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RjEG6MzWBL0iUkNdwzRoPxukY0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -47,5 +59,16 @@
       <updated>1570172005527</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
