@@ -20,3 +20,32 @@ class solution {
        
     }
 }
+
+
+class solution {
+    public static String longestCommonPrefix(String[] strs) {
+        if(strs.length == 0 || strs == null)
+            return result;
+        
+        StringBuilder sb = new StringBuilder();
+
+        int minLen = Integer.MAX_VALUE;
+
+        for( String str : strs) {
+            minLen = Math.min(minLen, str.length);
+        }
+
+        for(int i=0; i < minLen; i++ ) {
+            char curr = strs[0].charAt(i);
+
+            for(String str : strs) {
+                if(str.charAt(i) != curr) {
+                    return sb.toString();
+                }
+            }
+            sb.append(curr);
+        }
+
+        return sb.toString();
+    }
+}

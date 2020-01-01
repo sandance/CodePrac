@@ -2,7 +2,7 @@
 class Solution {
     public static String reverseWords(String s) {
         if (s == null) return null;
-        
+
         char [] array = s.toCharArray();
         int n = array.length;
 
@@ -26,7 +26,7 @@ class Solution {
             a[j--] = temp;
         }
     }
-    
+
     public static void reverseWords(char [] a, int n) {
         int i = 0;
         int j = 0;
@@ -35,12 +35,12 @@ class Solution {
             while( i < j || i < n && a[i] == ' ') i++;
             while( j > i || j < n && a[j] == ' ') j--;
             reverse(a, i, j - 1);
-        } 
+        }
     }
 
     public static String cleanSpaces(char [] a, int n) {
 
-        int i =0; 
+        int i =0;
         int j =0;
 
         while(j < n) {
@@ -60,7 +60,7 @@ class Solution {
         System.out.println("Enter new String");
         String str = sc.next();
 
-        reverseWords(str);
+        System.out.print(reverseWords(str));
 
 
     }

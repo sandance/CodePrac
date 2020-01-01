@@ -25,15 +25,4 @@ class Solution {
             temp[j--] = t;
         }
     }
-
-
-        while ( nextSpacePosition > 0) {
-            stringBuilder.append(new StringBuilder(s.substring(fromIndex, nextSpacePostion)).reverse().append(" "));
-            fromIndex= nextSpacePostion + 1;
-            nextSpacePostion = s.indexOf(" ", fromIndex);
-        }
-        System.out.println(stringBuilder.reverse().toString());
-        return stringBuilder.toString();
-        
-    };
 }
