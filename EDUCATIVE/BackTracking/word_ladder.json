@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+class Solution {
+
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Set<String> beginSet = new HashSet<String>();
+        Set<String> endSet = new HashSet<>();
+        Set<String> dict = new HashSet<>(wordList);
+        Set<String> visited = new HashSet<>();
+
+
+        beginSet.add
+
+    }
+}

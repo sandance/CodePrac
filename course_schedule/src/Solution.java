@@ -31,6 +31,7 @@ public class Solution {
         Set<Integer> zeroDegree = new HashSet<>();
 
         for(int i=0 ; i < numCourses; i++) {
+            System.out.println(inDegree[i]);
             if(inDegree[i] == 0) {
                 zeroDegree.add(i);
             }
@@ -40,6 +41,7 @@ public class Solution {
         while(!zeroDegree.isEmpty()) {
             Iterator<Integer> it = zeroDegree.iterator();
             int course = it.next();
+            System.out.println(course);
             zeroDegree.remove(course);
 
             for(int [] prereq : prerequisites) {
